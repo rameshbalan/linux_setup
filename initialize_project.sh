@@ -14,6 +14,7 @@ mkdir "$project_name/data" "$project_name/doc" "$project_name/results" "$project
 # Readme file for the project
 echo "### Few pointers for Project Organization" > "$project_name/readme.md"
 echo "- Use GitHub for collborating,sharing and version control of your scripts!" >> "$project_name/readme.md"
+echo "- Add your raw data, backup data and any large files >50 Mb to .gitignore file." >> "$project_name/readme.md"
 echo "- Use a pipeline management tool such as snakemake or nextflow" >> "$project_name/readme.md"
 echo "- Process and analyze results in a jupyter notebook or a Rmarkdown document" >> "$project_name/readme.md"
 
